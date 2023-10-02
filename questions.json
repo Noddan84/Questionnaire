@@ -1,0 +1,325 @@
+[
+
+{
+  "Question1":
+  {
+  "Question":  "Are you allergic to fur animals?", 
+  "Ja": {
+"Cat": 0,
+"Dog": 1,
+"Rabbit": 2,
+"Fish": 3
+  },
+  "Nej": {
+"Cat": 3,
+"Dog": 2,
+"Rabbit": 1,
+"Fish": 0
+  } 
+},
+"Question2":
+{
+"Question":  "Do you like to cuddle with your pet?",
+"Ja": {
+"Cat": 0,
+"Dog": 1,
+"Rabbit": 2,
+"Fish": 3
+},
+"Nej":{
+"Cat": 3,
+"Dog": 2,
+"Rabbit": 1,
+"Fish": 0
+}
+},
+"Question3":
+{
+"Question":  "Do you like outdoor activities?",
+"Ja":{
+"Cat": 0,
+"Dog": 1,
+"Rabbit": 2,
+"Fish": 3
+},
+"Nej":{
+"Cat": 3,
+"Dog": 2,
+"Rabbit": 1,
+"Fish": 0
+}
+},
+"Question4":
+{
+"Question":  "Do you want to have much responsibility with your pet?",
+"Ja":{
+"Cat": 3,
+"Dog": 2,
+"Rabbit": 1,
+"Fish": 0
+},
+"Nej":{
+"Cat": 0,
+"Dog": 1,
+"Rabbit": 2,
+"Fish": 3
+}
+},
+"Question5":
+{
+"Question":  "Do you thrive at most in a stressfree environment?",
+"Ja":{
+"Cat": 3,
+"Dog": 2,
+"Rabbit": 1,
+"Fish": 0
+},
+"Nej":{
+"Cat": 0,
+"Dog": 1,
+"Rabbit": 2,
+"Fish": 3
+}
+},
+"Question6":
+{
+"Question":  "Do you want a pet that requires less of your economy?",
+"Ja":{
+"Cat": 1,
+"Dog": 2,
+"Rabbit": 3,
+"Fish": 0
+},
+"Nej":{
+"Cat": 2,
+"Dog": 1,
+"Rabbit": 0,
+"Fish": 3
+}
+},
+"Question7":
+{
+"Question":  "Do you want to do furcare?",
+"Ja":{
+"Cat": 1,
+"Dog": 2,
+"Rabbit": 3,
+"Fish": 0
+},
+"Nej":{
+"Cat": 2,
+"Dog": 1,
+"Rabbit": 0,
+"Fish": 3
+}
+},
+"Question8":
+{
+"Question":  "Do you want a pet which is not carnivorous?",
+"Ja":{
+"Cat": 1,
+"Dog": 2,
+"Rabbit": 3,
+"Fish": 0
+},
+"Nej":{
+"Cat": 2,
+"Dog": 1,
+"Rabbit": 0,
+"Fish": 3
+}
+},
+"Question9":
+{
+"Question":  "Do you want a pet which is easy to clean after indoor activities?",
+"Ja":{
+"Cat": 1,
+"Dog": 2,
+"Rabbit": 3,
+"Fish": 0
+},
+"Nej":{
+"Cat": 2,
+"Dog": 1,
+"Rabbit": 0,
+"Fish": 3
+}
+},
+"Question10":
+{
+"Question": "Do you want a pet which can handle stressful environments?",
+"Ja":{
+"Cat": 1,
+"Dog": 2,
+"Rabbit": 3,
+"Fish": 0
+},
+"Nej":{
+"Cat": 2,
+"Dog": 1,
+"Rabbit": 0,
+"Fish": 3
+}
+},
+"Question11":
+{
+"Question": "Do you want an independent pet?",
+"Ja":{
+"Cat": 2,
+"Dog": 3,
+"Rabbit": 0,
+"Fish": 1
+},
+"Nej":{
+"Cat": 1,
+"Dog": 0,
+"Rabbit": 3,
+"Fish": 2
+}
+},
+"Question12":
+{
+"Question": "Can you imagine to clean after your pets natural needs?",
+"Ja":{
+"Cat": 2,
+"Dog": 3,
+"Rabbit": 0,
+"Fish": 1
+},
+"Nej":{
+"Cat": 1,
+"Dog": 0,
+"Rabbit": 3,
+"Fish": 2
+}
+},
+"Question13":
+{
+"Question": "Do you want a pet for indoor activities?",
+"Ja":{
+"Cat": 2,
+"Dog": 3,
+"Rabbit": 0,
+"Fish": 1
+},
+"Nej":{
+"Cat": 1,
+"Dog": 0,
+"Rabbit": 3,
+"Fish": 2
+}
+},
+"Question14":
+{
+"Question": "Do you want a pet that has a low probability of making damage to your home, belongings etc?",
+"Ja":{
+"Cat": 2,
+"Dog": 3,
+"Rabbit": 0,
+"Fish": 1
+},
+"Nej":{
+"Cat": 1,
+"Dog": 0,
+"Rabbit": 3,
+"Fish": 2
+}
+},
+"Question15":
+{
+"Question": "Is it important to be able to train/drill your pet?",
+"Ja":{
+"Cat": 2,
+"Dog": 3,
+"Rabbit": 0,
+"Fish": 1
+},
+"Nej":{
+"Cat": 1,
+"Dog": 0,
+"Rabbit": 3,
+"Fish": 2
+}
+},
+"Question16":
+{
+"Question": "Do you want a pet, well suited for frequently visits by your friends and family?",
+"Ja":{
+"Cat": 3,
+"Dog": 0,
+"Rabbit": 1,
+"Fish": 2
+},
+"Nej":{
+"Cat": 0,
+"Dog": 3,
+"Rabbit": 2,
+"Fish": 1
+}
+},
+"Question17":
+{
+"Question": "Is your sleep important?",
+"Ja":{
+"Cat": 3,
+"Dog": 0,
+"Rabbit": 1,
+"Fish": 2
+},
+"Nej":{
+"Cat": 0,
+"Dog": 3,
+"Rabbit": 2,
+"Fish": 1
+}
+},
+"Question18":
+{
+"Question": "Do you want to be able to hunt with your pet?",
+"Ja":{
+"Cat": 3,
+"Dog": 0,
+"Rabbit": 1,
+"Fish": 2
+},
+"Nej":{
+"Cat": 0,
+"Dog": 3,
+"Rabbit": 2,
+"Fish": 1
+}
+},
+"Question19":
+{
+"Question": "Do you like outdoor life?",
+"Ja":{
+"Cat": 3,
+"Dog": 0,
+"Rabbit": 1,
+"Fish": 2
+},
+"Nej":{
+"Cat": 0,
+"Dog": 3,
+"Rabbit": 2,
+"Fish": 1
+}
+},
+"Question20":
+{
+"Question": "Do you like to play with your pet?",
+"Ja":{
+"Cat": 3,
+"Dog": 0,
+"Rabbit": 1,
+"Fish": 2
+},
+"Nej":{
+"Cat": 0,
+"Dog": 3,
+"Rabbit": 2,
+"Fish": 1
+}
+}
+}
+]
