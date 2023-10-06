@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')({ sigint: true })
 const data2 = require('./results.json');
-let dataList = [];
+
 data2[0].count += 1;
 const data3 = require('./questions.json');
 const fs = require('fs');
@@ -28,7 +28,11 @@ let rabbitSumNo = 0;
 let running = true;
 let running2 = true;
 
+<<<<<<< Updated upstream
 const resultTotal = [];
+=======
+resultTotal = [];
+>>>>>>> Stashed changes
 
 const questionList = [data3[0].Question1, data3[0].Question2, data3[0].Question3, data3[0].Question4, data3[0].Question5, data3[0].Question6, data3[0].Question7, data3[0].Question8, data3[0].Question9, data3[0].Question10, data3[0].Question11, data3[0].Question12, data3[0].Question13, data3[0].Question14, data3[0].Question15, data3[0].Question16, data3[0].Question17, data3[0].Question18, data3[0].Question19, data3[0].Question20];
 
@@ -202,16 +206,20 @@ if ((Math.min(...totalPercent)) === rabbitPercent) {
   resultTotal.push("Rabbit fits you least!");
   console.log("Rabbit fits you least!");
 }
-
 console.log("\n" + resultTotal);
+<<<<<<< Updated upstream
 dataList.push(data2);
 console.log("\nBefore insert to list: \n");
 console.log(dataList);
 resultTotal.push(data2);
 console.log("\n After insert to list: \n");
 console.log(resultTotal);
+=======
+>>>>>>> Stashed changes
 
-fs.writeFile('./results.json', JSON.stringify(resultTotal, null, 2), (err) => {
+data2.push(resultTotal);
+
+fs.writeFile('./results.json', JSON.stringify(data2, null, 2), (err) => {
   if (err) throw err;
   console.log('\nData written to JSON-file');
 });

@@ -1,4 +1,5 @@
 [
+<<<<<<< Updated upstream
   "JANE DOE",
   "Fri Oct 06 2023 08:23:09",
   "Your highest pet-value is: 68%.",
@@ -57,4 +58,12 @@
       ]
     ]
   ]
+=======
+  "KIM' NORDIN",
+  "Mon Oct 02 2023 09:43:25",
+  "Your highest pet-value is: 96%.",
+  "Rabbit fits you most!",
+  "Your lowest pet-value is: 32%.",
+  "Cat fits you least!"
+>>>>>>> Stashed changes
 ]
