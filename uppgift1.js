@@ -1,10 +1,11 @@
 const prompt = require('prompt-sync')({ sigint: true })
 const data2 = require('./results.json');
 
-data2[0].count += 1;
 const data3 = require('./questions.json');
 const fs = require('fs');
 const when = new Date();
+
+
 
 const resultYesCat = [];
 const resultYesDog = [];
@@ -126,9 +127,11 @@ for (let i = 0; i < resultNoCat.length; i++) {
   catSumNo += resultNoCat[i];
 }
 console.log("\nCat total score: " + (catSumYes + catSumNo));
+resultTotal.push("Cat total score: " + (catSumYes + catSumNo));
 let catPercent = ((catSumYes + catSumNo) / 50);
 totalPercent.push(catPercent);
 console.log("Your value for Cat: " + (catPercent * 100) + "%.\n");
+resultTotal.push("Your value for Cat: " + (catPercent * 100) + "%.");
 
 for (let i = 0; i < resultYesDog.length; i++) {
   dogSumYes += resultYesDog[i];
@@ -137,9 +140,12 @@ for (let i = 0; i < resultNoDog.length; i++) {
   dogSumNo += resultNoDog[i];
 }
 console.log("Dog total score: " + (dogSumYes + dogSumNo));
+resultTotal.push("Dog total score: " + (dogSumYes + dogSumNo));
 let dogPercent = ((dogSumYes + dogSumNo) / 50);
 totalPercent.push(dogPercent);
 console.log("Your value for Dog: " + (dogPercent * 100) + "%.\n");
+resultTotal.push("Your value for Dog: " + (dogPercent * 100) + "%.");
+
 
 for (let i = 0; i < resultYesFish.length; i++) {
   fishSumYes += resultYesFish[i];
@@ -148,9 +154,12 @@ for (let i = 0; i < resultNoFish.length; i++) {
   fishSumNo += resultNoFish[i];
 }
 console.log("Fish total score: " + (fishSumYes + fishSumNo));
+resultTotal.push("Fish total score: " + (fishSumYes + fishSumNo));
 let fishPercent = ((fishSumYes + fishSumNo) / 50);
 totalPercent.push(fishPercent);
 console.log("Your value for Fish: " + (fishPercent * 100) + "%.\n");
+resultTotal.push("Your value for Fish: " + (fishPercent * 100) + "%.");
+
 
 for (let i = 0; i < resultYesRabbit.length; i++) {
   rabbitSumYes += resultYesRabbit[i];
@@ -159,9 +168,12 @@ for (let i = 0; i < resultNoRabbit.length; i++) {
   rabbitSumNo += resultNoRabbit[i];
 }
 console.log("Rabbit total score: " + (rabbitSumYes + rabbitSumNo));
+resultTotal.push("Rabbit total score: " + (rabbitSumYes + rabbitSumNo));
 let rabbitPercent = ((rabbitSumYes + rabbitSumNo) / 50);
 totalPercent.push(rabbitPercent);
 console.log("Your value for Rabbit: " + (rabbitPercent * 100) + "%.\n");
+resultTotal.push("Your value for Rabbit: " + (rabbitPercent * 100) + "%.");
+
 
 console.log("Your highest pet-value is: " + ((Math.max(...totalPercent)) * 100) + "%.");
 resultTotal.push("Your highest pet-value is: " + ((Math.max(...totalPercent)) * 100) + "%.");
@@ -202,9 +214,11 @@ if ((Math.min(...totalPercent)) === rabbitPercent) {
   resultTotal.push("Rabbit fits you least!");
   console.log("Rabbit fits you least!");
 }
-console.log("\n" + resultTotal);
-
+console.log("\n");
+console.log(resultTotal);
 data2.push(resultTotal);
+console.log("\n");
+console.log(data2);
 
 fs.writeFile('./results.json', JSON.stringify(data2, null, 2), (err) => {
   if (err) throw err;
